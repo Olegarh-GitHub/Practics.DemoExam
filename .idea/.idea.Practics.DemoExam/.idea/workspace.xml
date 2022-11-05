@@ -4,26 +4,48 @@
     <projectFile>Practics.DemoExam/Practics.DemoExam.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7a6e690-1e9e-4e99-8550-1886be16dd8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Practics.DemoExam/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/App.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/App.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/MainWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/MainWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Practics.DemoExam.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.lref" afterDir="false" />
+    <list default="true" id="b7a6e690-1e9e-4e99-8550-1886be16dd8e" name="Changes" comment="- Minor changes">
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Contexts/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Enums/OrderStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Enums/Role.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Extensions/ControlExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/Base/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/OrderProduct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/ReceivingPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/D344Y7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/D378D3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/E245R5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/E530Y6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/F346G5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/F893T5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/G832G6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/J432E4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Resources/А112Т4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Services/Base/EntityService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Services/LoginService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Practics.DemoExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Practics.DemoExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Practics.DemoExam.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Practics.DemoExam.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.lref" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +53,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,8 +105,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667626708714</updated>
-      <workItem from="1667626711532" duration="617000" />
+      <workItem from="1667626711532" duration="7241000" />
     </task>
+    <task id="LOCAL-00001" summary="- Init">
+      <created>1667627395392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667627395392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Init v2.0">
+      <created>1667627405788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667627405788</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Minor changes">
+      <created>1667627484253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667627484253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +149,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="- Init" />
+    <MESSAGE value="- Init v2.0" />
+    <MESSAGE value="- Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Minor changes" />
   </component>
 </project>
