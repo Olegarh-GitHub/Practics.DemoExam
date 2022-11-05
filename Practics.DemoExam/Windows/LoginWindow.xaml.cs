@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Practics.DemoExam.Contexts;
 using Practics.DemoExam.Extensions;
 using Practics.DemoExam.Services;
 
@@ -6,11 +7,16 @@ namespace Practics.DemoExam.Windows
 {
     public partial class LoginWindow : Window
     {
+        private readonly ApplicationContext _context;
         private readonly LoginService _loginService;
+        private readonly UserService _userService;
         
-        public LoginWindow(LoginService loginService)
+        public LoginWindow()
         {
-            _loginService = loginService;
+            _context = new ApplicationContext();
+            _userService = new UserService(_context);
+            _loginService = new LoginService(_userService);
+            
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
             InitializeComponent();
@@ -18,13 +24,47 @@ namespace Practics.DemoExam.Windows
 
         private void TryLoginButton_OnClick(object sender, RoutedEventArgs e)
         {
+            (string login, string password) = GetLoginFromInput();
+            
+            bool result = _loginService.Login(login, password);
+
+            if (!result)
+            {
+                ControlExtensions.MessageBoxError("Ошибка", "Проверьте введенные данные");
+                
+                return;
+            }
+            
+            
             this.OpenWindow<ProductWindow>();
+            
+            Visibility = Visibility.Hidden;
         }
 
         private void SignUpButton_OnClick(object sender, RoutedEventArgs e)
         {
             this.OpenWindow<SignUpWindow>(_loginService);
         }
-        
+
+        private (string login, string password) GetLoginFromInput()
+        {
+            return (LoginTextBox.Text, PasswordTextBox.Password);
+        }
+
+        private void LoginWithoutCredentialsButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            bool result = ControlExtensions.MessageBoxChoose
+            (
+                "Вы уверены, что хотите продолжить просмотр товаров без регистрации? " +
+                "Информация о ваших сделанных заказах будет недоступна при следующем входе!"
+            );
+            
+            if (!result)
+                return;
+            
+            this.OpenWindow<ProductWindow>();
+            
+            Visibility = Visibility.Hidden;
+        }
     }
 }

@@ -133,6 +133,7 @@
                 Width="350"
                 Height="25"
                 Content="Регистрация"
+                Click="SignUpButton_OnClick"
             />
         </StackPanel>
         <DockPanel 

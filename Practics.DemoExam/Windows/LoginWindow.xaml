@@ -102,11 +102,20 @@
             <Button
                 x:Name="SignUpButton"
                 Style="{StaticResource PrimaryTextButton}"
-                Margin="1"
+                Margin="10 1 10 10"
                 Width="350"
                 Height="25"
                 Content="Регистрация"
                 Click="SignUpButton_OnClick"
+            />
+            <Button
+                x:Name="LoginWithoutCredentialsButton"
+                Style="{StaticResource PrimaryTextButton}"
+                Margin="1"
+                Width="350"
+                Height="25"
+                Content="Продолжить без регистрации"
+                Click="LoginWithoutCredentialsButton_OnClick"
             />
         </StackPanel>
         <DockPanel 
