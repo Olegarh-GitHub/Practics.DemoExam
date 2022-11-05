@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a6e690-1e9e-4e99-8550-1886be16dd8e" name="Changes" comment="- Minor changes">
+      <change afterPath="$PROJECT_DIR$/Diagrams/script_creating.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Services/ProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/AddProductWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/AddProductWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/AddProductWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/AddProductWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Practics.DemoExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Practics.DemoExam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/App.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Extensions/ControlExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Extensions/ControlExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Practics.DemoExam.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Practics.DemoExam.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/LoginWindow.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/ProductWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/ProductWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/ProductWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/ProductWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/Windows/SignUpWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/bin/Debug/Practics.DemoExam.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/bin/Debug/Practics.DemoExam.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/bin/Debug/Practics.DemoExam.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/bin/Debug/Practics.DemoExam.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Practics.DemoExam_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.g.i.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +44,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/AddProductWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Practics.DemoExam/obj/Debug/Windows/ProductWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/068a3c4080104e51828ab210be168ae84c2978/89/8727c296/LazyInternalConnection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98f1e9a344024c929a1382bed95982945fe188/b7/027b0633/WpfXamlLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98f1e9a344024c929a1382bed95982945fe188/e7/9327d576/ItemCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/e5/3ddd399c/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667626708714</updated>
-      <workItem from="1667626711532" duration="8945000" />
+      <workItem from="1667626711532" duration="12241000" />
     </task>
     <task id="LOCAL-00001" summary="- Init">
       <created>1667627395392</created>
@@ -109,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667634320684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Minor changes">
+      <created>1667635739597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667635739597</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +147,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

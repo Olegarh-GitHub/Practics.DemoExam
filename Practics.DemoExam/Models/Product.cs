@@ -10,5 +10,16 @@ namespace Practics.DemoExam.Models
         public decimal Price { get; set; }
         
         public decimal Discount { get; set; }
+        
+        public Product() { }
+
+        public Product(string title, string description, string manufacturer, decimal price, decimal discount)
+        {
+            Title = title;
+            Description = description;
+            Manufacturer = manufacturer;
+            Price = price;
+            Discount = discount;
+        }
     }
 }

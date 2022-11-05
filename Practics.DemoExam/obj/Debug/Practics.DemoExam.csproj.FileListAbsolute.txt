@@ -24,3 +24,5 @@ C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\
 C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\obj\Debug\Windows\SignUpWindow.g.cs
 C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\obj\Debug\Windows\ProductWindow.baml
 C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\obj\Debug\Windows\SignUpWindow.baml
+C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\obj\Debug\Windows\AddProductWindow.g.cs
+C:\Coding\CSharp\Education\Practics.Courses\Practics.DemoExam\Practics.DemoExam\obj\Debug\Windows\AddProductWindow.baml

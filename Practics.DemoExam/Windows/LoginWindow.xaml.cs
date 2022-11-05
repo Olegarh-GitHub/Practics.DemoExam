@@ -8,6 +8,7 @@ namespace Practics.DemoExam.Windows
     public partial class LoginWindow : Window
     {
         private readonly ApplicationContext _context;
+        private readonly ProductService _productService;
         private readonly LoginService _loginService;
         private readonly UserService _userService;
         
@@ -16,6 +17,7 @@ namespace Practics.DemoExam.Windows
             _context = new ApplicationContext();
             _userService = new UserService(_context);
             _loginService = new LoginService(_userService);
+            _productService = new ProductService(_context);
             
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
@@ -36,7 +38,7 @@ namespace Practics.DemoExam.Windows
             }
             
             
-            this.OpenWindow<ProductWindow>();
+            this.OpenWindow<ProductWindow>(_productService);
             
             Visibility = Visibility.Hidden;
         }
@@ -62,7 +64,7 @@ namespace Practics.DemoExam.Windows
             if (!result)
                 return;
             
-            this.OpenWindow<ProductWindow>();
+            this.OpenWindow<ProductWindow>(_productService);
             
             Visibility = Visibility.Hidden;
         }
